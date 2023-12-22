@@ -32,7 +32,7 @@ export const prevBubble = (
     } else {
       setBubbles((prev: Bubble[]) => [...prev, lastBubble]);
     }
-    setPrevBubbles((prev) => prev.slice(0, -2));
+    setPrevBubbles((prev) => prev.slice(0, -1));
   }
   setSelectedBubble(null);
 };
